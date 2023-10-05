@@ -7,7 +7,7 @@
 ## HTML
  Le premier problème est au niveau de la structure du code dans le index.html. En effet, la balise `main` n'est pas présente, elle est remplacée par une simple `div` avec une class `main` qui est très mal utilisée.Les balises `div` sont surutilisées des balises plus adaptées en terme de sémantique sont nécessaires. Un fichier PNG est présent en dehors du dossier `asset`.
 
-Intéressons-nous maintenant plus en détail au code : suppression des liens dans les boutons, suppression des balises . la partie `head` est beaucoup trop vide. Il manque des éléments tels que les balises `meta` :
+Intéressons-nous maintenant plus en détail au code : suppression des liens dans les boutons. la partie `head` est beaucoup trop vide. Il manque des éléments tels que les balises `meta` :
 
 ```html
     <meta charset="UTF-8">
