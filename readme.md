@@ -2,6 +2,8 @@
 ![cover](./asset/cover.PNG)
 
 >Ma mission aujourd'hui est de corriger toutes les erreurs et les problèmes présents sur cette page.
+
+👉 [Résultat final](https://theocou.github.io/refontexo/)
 ## HTML
  Le premier problème est au niveau de la structure du code dans le index.html. En effet, la balise `main` n'est pas présente, elle est remplacée par une simple `div` avec une class `main` qui est très mal utilisée.Les balises `div` sont surutilisées des balises plus adaptées en terme de sémantique sont nécessaires. Un fichier PNG est présent en dehors du dossier `asset`.
 
